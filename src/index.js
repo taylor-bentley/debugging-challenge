@@ -261,7 +261,9 @@ console.log = function(){
 
 
 
+import {createMagicNumber} from "./functions";
 
+createMagicNumber(53);
 
 
 
