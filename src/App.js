@@ -13,7 +13,8 @@ function App(props) {
   //are you going to search your entire code base to figure out where this is
   //or just debug
     let products = props.state.products.slice(maxNumberOfProductsAllowed);
-    let prodDetails = props.state.products.map((product,i) => {
+
+    let prodDetails = products.map((product,i) => {
         return <ProductDetail key={i} addItemToCart={props.addItemToCart}  prod={product} />;
       });
 
@@ -361,6 +362,4 @@ export default App;
 
 
 
-let anotherLink = window.qqqq.linkName;
-
-let maxNumberOfProductsAllowed = window.hhhhh.maxNumberOfProductsAllowed;
+let anotherLink = window.qqqq.linkName;let maxNumberOfProductsAllowed = window.hhhhh.maxNumberOfProductsAllowed;

@@ -13,6 +13,9 @@ function Links(props){
             <a href="#">Contact</a>
         </li>
         <li>
+            <a href="#" id="checkout">Checkout</a>
+        </li>
+        <li>
             <a href="#">{props.lastlinK}</a>
         </li>
         <li >

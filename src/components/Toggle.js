@@ -319,9 +319,7 @@ export default Toggle;
 
 
 
-window.qqqq = {
-    linkName:"Account"
-}
+
 
 
 

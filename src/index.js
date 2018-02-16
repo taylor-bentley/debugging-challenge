@@ -254,10 +254,6 @@ render();
 
 
 
-let temp = console.log;
-console.log = function(){
-  temp("no cheating");
-}
 
 
 
