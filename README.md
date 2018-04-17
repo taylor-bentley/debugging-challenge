@@ -1,5 +1,5 @@
 #### Setup
-Fork, clone, run yarn install, yarn start
+Fork, clone, run npm install, npm start
 
 #### Do
  * debug App.js. What is the value of maxNumberOfProductsAllowed. How many objects are in the products array after doing a slice on maxNumberOfProductsAllowed. Is this correct?
