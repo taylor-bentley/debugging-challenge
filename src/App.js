@@ -12,7 +12,8 @@ function App(props) {
   //maxNumberOfProductsAllowed is a global variable. Where is it
   //are you going to search your entire code base to figure out where this is
   //or just debug
-    let products = props.state.products.slice(maxNumberOfProductsAllowed);
+
+    let products = props.state.products.slice(0,maxNumberOfProductsAllowed);
 
     let prodDetails = products.map((product,i) => {
         return <ProductDetail key={i} addItemToCart={props.addItemToCart}  prod={product} />;
@@ -21,7 +22,7 @@ function App(props) {
     return (
       <div className="App">
      {/*<Header>*/}
-    <Header linＫ={anotherLink} numberOfItemsInCart = {props.state.numberOfItemsInCart} />
+    <Header link={anotherLink} numberOfItemsInCart = {props.state.numberOfItemsInCart} />
     {/*</Header>*/}
     <div className="container">
         <div className="row">
